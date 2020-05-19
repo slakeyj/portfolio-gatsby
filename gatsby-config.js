@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Julia Doe`,
+    title: `Susanna Lakey`,
     subtitle: `software developer`,
     description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
     author: `@niklasmtj`,
   },
   plugins: [
+    `gatsby-plugin-material-ui`,
+    `gatsby-theme-material-ui`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -30,7 +32,7 @@ module.exports = {
         plugins: [`gatsby-remark-reading-time`, {
           resolve: `gatsby-remark-prismjs`,
           options: {
-            aliases:{sh: "bash", js:"javascript"},
+            aliases: { sh: "bash", js: "javascript" },
             showLineNumbers: true,
           }
         }],
