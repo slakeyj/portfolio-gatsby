@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   image: {
     borderRadius: '50%',
     marginTop: '6em',
-    height: '70%'
+    height: '65%'
   },
   text: {
     margin: '3em',
